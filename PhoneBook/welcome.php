@@ -1,3 +1,11 @@
+<html>
+<style>
+    div {
+        color: darkgreen;
+        font-size: 50px;
+    }
+</style>
+<body>
 <?php 
 
     ob_start();
@@ -12,14 +20,12 @@
 
      if(isset($_SESSION['uname'])){ 
          
-        echo "Welcome " .$_SESSION['uname']. "!";
+        echo "Welcome <div>" .$_SESSION['uname']. " !</div>";
      
      }else{ 
-         echo 'Session not set';}
-
-
-   
-
-    
-    
+         echo 'Session not set';
+     }  
 ?>
+
+</body>
+</html>

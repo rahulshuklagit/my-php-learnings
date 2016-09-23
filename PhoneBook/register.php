@@ -1,5 +1,7 @@
 <html>
     <head>
+        
+    <link rel  = "stylesheet" type = "text/css" href = "mystyles.css">    
     <title>Register</title>
     </head>
     <body>
@@ -8,7 +10,9 @@
         
     <h2>Register</h2>
         
-    <form action = "registerpage.php" method = "post">
+    <div>     
+        
+    <form action = "registerpage.php" method = "post">  
         
     User Name: <input type = "text" name = "uname"><br /><br />
         
@@ -16,9 +20,10 @@
     
     Re-Type Password: <input type = "password" name = "pass2"><br /><br />
     
-    <input type = "submit"  value = "Register"><br /><br />
+    <input type = "submit"  value = "Register"><br /><br />    
         
     </form>    
+     </div>     
         
     </body>
 </html>

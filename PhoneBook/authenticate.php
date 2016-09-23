@@ -1,5 +1,9 @@
 <html>
     <head>
+        
+        
+    <link rel  = "stylesheet" type = "text/css" href = "mystyles.css">     
+         
     <title>Phone Book</title>
     </head>
     <body>
@@ -7,8 +11,9 @@
     <h1>My Phone Book</h1>
         
     <h2>Login</h2>
-        
-    <form action = "login.php" method = "post">
+    
+    <div>     
+    <form action = "login.php" method = "post">  
         
     User Name: <input type = "text" name = "uname"><br /><br />
         
@@ -22,13 +27,12 @@
         
     New User: <br><br>
         
-        <input type = "submit" value = "Register"><br /><br /> 
+        <input type = "submit" value = "Register"><br /><br />      
     
-        </form>    
+        </form>
+        <small><p style="text-align:center">&copy; 2016-17 Rahul Shukla</p></small>
+        </div>
      
-        
-        
-        
     </body>
     </form>
 </html>

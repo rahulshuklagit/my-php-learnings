@@ -1,0 +1,34 @@
+h1 {
+
+    color:navy;
+    text-align:center;
+    font-family: sans-serif;
+}
+
+h2 {
+
+    color:maroon;
+    text-align:center;
+    font-family: sans-serif;
+
+}
+
+body{
+    
+    background-color: beige;
+    
+}
+
+div {
+    font-family: cursive;
+    width: 300px;
+    border: 10px solid green;
+    padding: 50px;
+    align-items: center;
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    margin-top: -50px;
+    margin-left: -50px;
+    background-color:azure;
+}
